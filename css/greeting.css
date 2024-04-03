@@ -1,0 +1,84 @@
+@import "style.css";
+
+.greeting-3th-title {
+    font-family: Ubuntu, serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.58px;
+    text-align: left;
+}
+
+.greeting-bold-text {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22.98px;
+    text-align: left;
+}
+
+.greeting-text {
+    font-family: Ubuntu, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.68px;
+    text-align: left;
+}
+
+.sm-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.list-icon {
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+}
+
+.list-icon-question{
+    width: 16px;
+    height: 24px;
+    left: 1.16px;
+    margin-right: 8px;
+}
+
+.greeting-4th-title {
+    font-family: Ubuntu, serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.28px;
+}
+
+.booking-button {
+    padding: 24px 48px;
+    background: #009345;
+    color: white;
+    font-family: Ubuntu, serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 29.87px;
+    text-align: center;
+    border-radius: 15px 15px 15px 1px;
+}
+
+.lesson-text {
+    margin-left: 34px;
+}
+
+.offer-text {
+    margin-left: 24px;
+}
+
+.list-it {
+    margin-top: 16px;
+}
+
+.free-text {
+    margin-top: 35px;
+}
+
+.greeting-img {
+    width: 530px;
+    /*height: 494px;*/
+}
