@@ -13,5 +13,6 @@
     <?php include './header.html'; ?>
     <?php include './greeting.html'; ?>
     <?php include './why-we-are.html'; ?>
+    <?php include './whom.html'; ?>
 </body>
 </html>

@@ -1,0 +1,31 @@
+.whom-title {
+    font-family: Ubuntu, serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62.4px;
+    text-align: left;
+}
+
+.whom-title > span {
+    color: #009345;
+}
+
+.block-title {
+    font-family: Ubuntu, serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+}
+
+.block-desc {
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+}
+
+.whom-block {
+    margin-left: 12px;
+}
