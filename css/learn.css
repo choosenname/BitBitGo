@@ -1,0 +1,32 @@
+.learn-block-title {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    margin-top: 32px;
+}
+
+.learn-block-desc {
+    font-family: Ubuntu, serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 23.8px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.learn-block {
+    background: #FBFBFB;
+    padding: 32px 21px 32px 32px;
+    border-radius: 16px;
+}
+
+#blocks-row .learn-block {
+    margin-right: 20px; /* Добавляем правый отступ между блоками */
+}
+
+#blocks-row .learn-block:last-child {
+    margin-right: 0; /* Убираем отступ справа для последнего блока */
+}

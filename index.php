@@ -14,5 +14,6 @@
     <?php include './greeting.html'; ?>
     <?php include './why-we-are.html'; ?>
     <?php include './whom.html'; ?>
+    <?php include './learn.html'; ?>
 </body>
 </html>
