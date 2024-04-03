@@ -15,5 +15,6 @@
     <?php include './why-we-are.html'; ?>
     <?php include './whom.html'; ?>
     <?php include './learn.html'; ?>
+    <?php include './lessons.html'; ?>
 </body>
 </html>

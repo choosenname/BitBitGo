@@ -1,0 +1,45 @@
+.lessons {
+    background: #1C1C1C;
+    border-radius: 15px;
+    padding: 60px 78px 60px 78px;
+}
+
+.lesson-title {
+    color: white;
+    margin-bottom: 4px;
+}
+
+.lesson-block-title {
+    font-family: Ubuntu, serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+}
+
+.lesson-block-desc {
+    font-family: Ubuntu, serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 23.8px;
+    text-align: left;
+    color: #FFFFFFE9;
+}
+
+.lesson-block {
+    max-width: 348px;
+}
+
+.lessons-blocks-row {
+    margin-top: 40px;
+}
+
+.lessons-blocks-row .lesson-block {
+    margin-right: 40px; /* Добавляем правый отступ между блоками */
+}
+
+.lessons-blocks-row .lesson-block:last-child {
+    margin-right: 0; /* Убираем отступ справа для последнего блока */
+}
