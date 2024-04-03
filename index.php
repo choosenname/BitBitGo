@@ -10,5 +10,6 @@
 <body>
     <?php include './header.html'; ?>
     <?php include './greeting.html'; ?>
+    <?php include './why-we-are.html'; ?>
 </body>
 </html>
