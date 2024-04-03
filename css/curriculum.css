@@ -1,0 +1,30 @@
+.curriculum-block-title {
+    font-family: Ubuntu, serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28.6px;
+    text-align: left;
+    max-width: 305px;
+}
+
+.curriculum-block-list {
+    font-family: Ubuntu, serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23.4px;
+    text-align: left;
+    max-width: 849px;
+}
+
+.curriculum-block-img {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.curriculum-block {
+    gap: 30px;
+}
+
+/*.curriculum-block *:last-child {*/
+/*    margin-right: 0;*/
+/*}*/
