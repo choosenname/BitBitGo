@@ -24,7 +24,7 @@
     text-align: left;
 }
 
-.sm-icon {
+.sm-greeting-icon {
     width: 30px;
     height: 30px;
     margin-left: 10px;
@@ -67,7 +67,7 @@
 }
 
 .offer-text {
-    margin-left: 24px;
+    margin: 30px 0 16px 24px;
 }
 
 .list-it {
@@ -79,6 +79,6 @@
 }
 
 .greeting-img {
-    width: 530px;
+    width: 625px;
     /*height: 494px;*/
 }
