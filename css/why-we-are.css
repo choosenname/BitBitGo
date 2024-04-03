@@ -1,1 +1,54 @@
-@import "style.css";
+.image-list {
+    list-style-type: none; /* Удаляем стандартные маркеры списка */
+    padding-left: 0; /* Убираем отступ слева */
+    margin-top: 50px;
+}
+
+.image-list li {
+    padding-left: 20px; /* Добавляем отступ слева для текста */
+    background-image: url('./../assets/icons/check.svg'); /* Устанавливаем изображение в качестве маркера */
+    background-repeat: no-repeat; /* Отключаем повтор изображения */
+    background-position: left center; /* Располагаем изображение слева по центру */
+    background-size: 16px 16px; /* Задаем размер изображения */
+    line-height: 1.5; /* Задаем высоту строки, чтобы изображение было выровнено по центру */
+    margin-bottom: 20px;
+}
+
+.wow-item {
+    background-image: url('./../assets/icons/wow.svg') !important;
+    background-size: 78px 48px !important;
+    padding-left: 82px !important;
+    font-family: Ubuntu, serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+}
+
+.title-2th {
+    font-family: Ubuntu, serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    text-align: center;
+}
+
+.title-2th > span {
+    color: #009345;
+}
+
+.why-we-are-block {
+    margin-left: 52px;
+}
+
+.title-3th {
+    font-family: Ubuntu, serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62.4px;
+    text-align: left;
+}
+
+.title-3th > span {
+    color: #009345;
+}

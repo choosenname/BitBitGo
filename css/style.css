@@ -34,3 +34,14 @@ section, header {
     line-height: 41.36px;
     text-align: left;
 }
+
+.subtitle > span {
+    color: #009345;
+}
+
+.why-we-are-img {
+    width: 598px;
+    height: 598px;
+    top: 903px;
+    left: 320px;
+}
