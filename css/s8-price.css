@@ -1,0 +1,98 @@
+.price-block {
+    background: #1C1C1C;
+    border-radius: 15px;
+    padding: 40px 108px 50px 80px;
+}
+
+.price-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.6px;
+    text-align: left;
+    color: white;
+}
+
+.price-subtitle {
+    font-family: Ubuntu, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.68px;
+    text-align: left;
+    color: white;
+}
+
+.main-price {
+    font-family: Ubuntu, serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 73.54px;
+    text-align: center;
+}
+
+#byn {
+    color: #009345;
+}
+
+#rub {
+    color: #AA2FE4;
+}
+
+.discount-price {
+    font-family: Ubuntu, serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55.15px;
+    text-align: center;
+    color: #FFFFFF57;
+}
+
+.discount-percent {
+    background: white;
+    border-radius: 24px;
+    color: #1C1C1C;
+    font-family: Ubuntu, serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.68px;
+    text-align: center;
+    max-width: 60px;
+    max-height: 25px;
+    padding: 2px 6px 2px 6px;
+}
+
+.price-desc {
+    font-family: Ubuntu, serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36.4px;
+    text-align: center;
+    color: white;
+    max-width: 414px;
+}
+
+.discount-block {
+    gap: 20px;
+}
+
+.stroke {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.booking-form-button {
+    padding: 20px 35px 20px 35px;
+    background: #009345;
+    color: white;
+    font-family: Ubuntu, serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29.87px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 15px 15px 15px 1px;
+    max-width: 401px;
+    max-height: 70px;
+}
