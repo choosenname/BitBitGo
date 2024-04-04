@@ -11,11 +11,11 @@
 </head>
 <body>
     <?php include './header.html'; ?>
-    <?php include './greeting.html'; ?>
-    <?php include './why-we-are.html'; ?>
-    <?php include './whom.html'; ?>
-    <?php include './learn.html'; ?>
-    <?php include './lessons.html'; ?>
-    <?php include './curriculum.html'; ?>
+    <?php include './s1-greeting.html'; ?>
+    <?php include './s2-why-we-are.html'; ?>
+    <?php include './s3-whom.html'; ?>
+    <?php include './s4-learn.html'; ?>
+    <?php include './s5-lessons.html'; ?>
+    <?php include './s6-curriculum.html'; ?>
 </body>
 </html>
