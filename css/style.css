@@ -1,3 +1,18 @@
+@import "header.css";
+@import "s1-greeting.css";
+@import "s2-why-we-are.css";
+@import "s3-whom.css";
+@import "s4-learn.css";
+@import "s5-lessons.css";
+@import "s6-curriculum.css";
+@import "s7-second-layer.css";
+@import "s8-price.css";
+@import "s9-booking-form.css";
+
+body {
+    font-family: Ubuntu, serif;
+}
+
 section, header {
     max-width: 1280px; !important;
     --bs-gutter-x: 1.5rem;
