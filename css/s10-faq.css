@@ -1,6 +1,6 @@
 .accordion{
     width: 100%;
-    max-width: 413px;
+    max-width: 618px;
     height: fit-content;
 }
 .accordion-item {
@@ -14,6 +14,11 @@
     background-color: #FBFBFB;
     cursor: pointer;
     position: relative;
+    font-family: Ubuntu, serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
 }
 
 .arrow {
@@ -29,10 +34,14 @@
 .accordion-content {
     max-height: 0;
     overflow: hidden;
-    margin-top: 0px;
+    margin-top: 0;
     transition: max-height 0.3s ease;
     box-sizing: border-box;
-
+    font-family: Ubuntu, serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22.1px;
+    text-align: left;
 }
 
 .accordion-content.active {
@@ -41,38 +50,26 @@
     margin-top: 15px;
 }
 
-.price_cont{
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
-
-.price-accordion{
-    font-size: 22px;
-    font-weight: 800;
-    line-height: 31px;
-    letter-spacing: 0em;
-    color: #107CDF;
-}
-
-.get_polomka{
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 25px;
-    letter-spacing: 0em;
-    color: #DF1024;
-    text-decoration: underline;
-}
-
 .accordion-header{
     font-size: 22px;
     font-weight: 600;
     line-height: 30px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
 }
 
-.container-accordions-flex{
-    display: flex;
-    justify-content: space-between;
+.faq {
+    gap: 20px
+}
+
+.faq-title {
+    font-family: Ubuntu, serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62.4px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.faq-title > span {
+    color: #009345;
 }
