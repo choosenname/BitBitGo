@@ -17,5 +17,6 @@
     <?php include './s4-learn.html'; ?>
     <?php include './s5-lessons.html'; ?>
     <?php include './s6-curriculum.html'; ?>
+    <?php include './s7-second-layer.html'; ?>
 </body>
 </html>

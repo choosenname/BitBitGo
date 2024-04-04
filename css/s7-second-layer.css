@@ -1,0 +1,24 @@
+.second-layer-block-title {
+    font-family: Ubuntu, serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: right;
+}
+
+.second-layer-block-title > span {
+    color: #009345;
+}
+
+.second-layer-block-text {
+    font-family: Ubuntu, serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33.8px;
+    text-align: right;
+    color: #8A8A8A;
+}
+
+.second-layer-block {
+    max-width: 630px;
+}
