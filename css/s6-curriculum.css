@@ -75,3 +75,11 @@
     border-radius: 15px 15px 14px 1px;
     gap: 10px;
 }
+
+input[type="checkbox"]
+{
+    width: 19px;
+    height: 19px;
+    margin-left: 5px;
+    accent-color: #39AA6F;
+}
