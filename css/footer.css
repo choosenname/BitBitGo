@@ -1,0 +1,104 @@
+footer > div {
+    max-width: 1280px !important;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    padding: 40px 0 54px 0;
+}
+
+#footer-social-navbar-items-block {
+    margin-left: 60px;
+}
+
+.footer-navbar-items-block a {
+    color: white;
+    text-wrap: nowrap;
+}
+
+.footer-navbar-items-block a:hover {
+    color: white;
+}
+
+.footer-navbar-items-block p {
+    color: white;
+    text-wrap: nowrap;
+}
+
+.navbar-brand > p {
+    color: white;
+}
+
+#info {
+    margin-top: 38px;
+}
+
+.footer-under-logo {
+    font-family: Ubuntu, serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13.79px;
+    text-align: left;
+}
+
+.info {
+    font-family: Ubuntu, serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.79px;
+    text-align: left;
+    white-space: normal;
+}
+
+#footer-navbar-brand {
+    max-width: 305px;
+    margin-right: 110px;
+}
+
+p {
+    margin: 0;
+}
+
+#footer-social {
+    margin-top: 10px;
+}
+
+#footer-social img {
+    margin-right: 10px;
+}
+
+#footer-social img:last-child {
+    margin-right: 0;
+}
+
+.sm-footer-icon {
+    width: 30px;
+    height: 30px;
+}
+
+#mail-icon {
+    margin-right: 5px;
+}
+
+#fluent-mail {
+    margin-top: 15px;
+}
+
+.footer-docs p {
+    font-family: Ubuntu, serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.79px;
+    text-align: right;
+    color: white;
+}
+
+#footer-logo {
+    width: 100%;
+}

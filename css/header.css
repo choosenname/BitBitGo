@@ -23,7 +23,7 @@
     text-align: left;
 }
 
-.nav-link {
+.nav-link a {
     font-family: Ubuntu, serif;
     font-size: 14px;
     font-weight: 400;

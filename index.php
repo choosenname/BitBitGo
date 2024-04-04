@@ -21,5 +21,6 @@
     <?php include './s8-price.html'; ?>
     <?php include './s9-booking-form.html'; ?>
     <?php include './s10-faq.html'; ?>
+    <?php include './footer.html'; ?>
 </body>
 </html>

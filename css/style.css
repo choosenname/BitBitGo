@@ -9,13 +9,14 @@
 @import "s8-price.css";
 @import "s9-booking-form.css";
 @import "s10-faq.css";
+@import "footer.css";
 
 body {
     font-family: Ubuntu, serif;
 }
 
 section, header {
-    max-width: 1280px; !important;
+    max-width: 1280px !important;
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     width: 100%;
@@ -24,6 +25,10 @@ section, header {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 90px;
+}
+
+footer {
+    background: #1C1C1C;
 }
 
 .title {
