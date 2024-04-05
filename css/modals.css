@@ -1,0 +1,65 @@
+.overlay{
+    width: 100vw;
+    background-color: #242424CC;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.popup-booking{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 839px;
+    border-radius: 10px;
+    background-color: #FFF;
+    text-align: center;
+    padding: 40px;
+    display: none;
+}
+
+
+.popup-booking p{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.cross{
+    text-align: end;
+}
+
+.active{
+    display: block;
+}
+
+.modal-form {
+    margin: 0 auto;
+    background: none;
+}
+
+.modal-title {
+    font-family: Ubuntu, serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40.22px;
+    text-align: center;
+}
+
+.booking-modal-form-button {
+    max-height: 38px;
+    padding: 10px 20px 10px 20px;
+    gap: 4px;
+    border-radius: 40px;
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.38px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    background: #009345;
+}

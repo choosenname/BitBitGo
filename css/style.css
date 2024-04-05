@@ -10,6 +10,7 @@
 @import "s9-booking-form.css";
 @import "s10-faq.css";
 @import "footer.css";
+@import "modals.css";
 
 body {
     font-family: Ubuntu, serif;
