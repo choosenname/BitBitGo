@@ -1,5 +1,6 @@
 .overlay{
     width: 100vw;
+    height: 100vh;
     background-color: #242424CC;
     position: fixed;
     top: 0;
@@ -7,17 +8,19 @@
     display: none;
 }
 
-.popup-booking{
+.popup-booking, .popup-thanks, .popup-more-info, .popup-connect{
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 839px;
     border-radius: 10px;
     background-color: #FFF;
     text-align: center;
-    padding: 40px;
+    padding: 75px 105px 75px 105px;
     display: none;
+    max-width: 839px;
+    max-height: 614px;
+    width: 100%;
 }
 
 
@@ -29,6 +32,10 @@
 
 .cross{
     text-align: end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 30px 30px 0 0;
 }
 
 .active{
@@ -38,6 +45,7 @@
 .modal-form {
     margin: 0 auto;
     background: none;
+    padding-bottom: 0;
 }
 
 .modal-title {
@@ -62,4 +70,22 @@
     text-transform: uppercase;
     border: none;
     background: #009345;
+    margin-top: 40px;
+}
+
+.second-modal-title {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22.98px;
+    text-align: center;
+    color: #212121;
+}
+
+.thanks-modal-title {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22.98px;
+    text-align: center;
 }

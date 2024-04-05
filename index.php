@@ -23,7 +23,11 @@
 <?php include './s9-booking-form.html'; ?>
 <?php include './s10-faq.html'; ?>
 <?php include './footer.html'; ?>
+<?php include './modals/overlay.html'; ?>
 <?php include './modals/booking-form-modal.html'; ?>
+<?php include './modals/thanks-modal.html'; ?>
+<?php include './modals/more-info-modal.html'; ?>
+<?php include './modals/connect-modal.html'; ?>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="js/faq.js"></script>
