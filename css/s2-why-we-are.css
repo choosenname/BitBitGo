@@ -48,7 +48,7 @@
     left: 320px;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 576px) {
     .image-list {
         margin-top: 25px;
     }
