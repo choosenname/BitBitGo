@@ -38,6 +38,7 @@ footer {
     font-weight: 700;
     line-height: 62.4px;
     text-align: left;
+    margin-bottom: 50px;
 }
 
 .section-title span {
@@ -60,5 +61,6 @@ footer {
     .section-title {
         font-size: 32px;
         line-height: 41.6px;
+        margin-bottom: 25px;
     }
 }

@@ -30,3 +30,21 @@
 #blocks-row .learn-block:last-child {
     margin-right: 0; /* Убираем отступ справа для последнего блока */
 }
+
+@media screen and (max-width: 576px) {
+    #blocks-row {
+        gap: 20px;
+    }
+
+    .learn-block {
+        margin: 0 !important;
+    }
+
+    #Learn {
+        padding: 0 30px 0 30px;
+    }
+
+    .learn-block-title {
+        margin-top: 8px;
+    }
+}
