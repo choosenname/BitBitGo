@@ -39,3 +39,20 @@
     line-height: 16.09px;
     text-align: left;
 }
+
+.title {
+    font-family: Ubuntu, serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: left;
+}
+
+.title > span {
+    font-family: Ubuntu, serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: left;
+    color: #009345;
+}
