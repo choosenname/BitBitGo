@@ -61,16 +61,3 @@
 .faq {
     gap: 20px
 }
-
-.faq-title {
-    font-family: Ubuntu, serif;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 62.4px;
-    text-align: left;
-    margin-bottom: 50px;
-}
-
-.faq-title > span {
-    color: #009345;
-}

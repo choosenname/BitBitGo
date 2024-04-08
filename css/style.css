@@ -33,24 +33,7 @@ footer {
     background: #1C1C1C;
 }
 
-.title {
-    font-family: Ubuntu, serif;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 78px;
-    text-align: left;
-}
-
-.title > span {
-    font-family: Ubuntu, serif;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 78px;
-    text-align: left;
-    color: #009345;
-}
-
-.subtitle {
+.section-title {
     font-family: Ubuntu, serif;
     font-size: 48px;
     font-weight: 700;
@@ -58,13 +41,6 @@ footer {
     text-align: left;
 }
 
-.subtitle > span {
+.section-title span {
     color: #009345;
-}
-
-.why-we-are-img {
-    width: 598px;
-    height: 598px;
-    top: 903px;
-    left: 320px;
 }

@@ -41,14 +41,9 @@
     margin-left: 52px;
 }
 
-.title-3th {
-    font-family: Ubuntu, serif;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 62.4px;
-    text-align: left;
-}
-
-.title-3th > span {
-    color: #009345;
+.why-we-are-img {
+    width: 598px;
+    height: 598px;
+    top: 903px;
+    left: 320px;
 }
