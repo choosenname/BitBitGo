@@ -47,3 +47,41 @@
     top: 903px;
     left: 320px;
 }
+
+@media screen and (max-width: 412px) {
+    .image-list {
+        margin-top: 25px;
+    }
+
+    .image-list li {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.8px;
+    }
+
+    .wow-item {
+        background-size: 65px 40px !important;
+        font-family: Manrope, serif;
+        font-size: 18px!important;
+        font-weight: 800 !important;
+        line-height: 23.4px !important;
+    }
+
+    .title-2th {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 31.2px;
+        text-align: center;
+    }
+
+    .why-we-are-block {
+        margin-left: 0;
+    }
+
+    .why-we-are-img {
+        width: 598px;
+        height: 598px;
+        top: 903px;
+        left: 320px;
+    }
+}

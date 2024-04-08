@@ -11,7 +11,6 @@
 @import "s10-faq.css";
 @import "footer.css";
 @import "modals.css";
-@import "mobile.css";
 
 body {
     font-family: Ubuntu, serif;
@@ -43,4 +42,23 @@ footer {
 
 .section-title span {
     color: #009345;
+}
+
+.mobile-show {
+    display: none;
+}
+
+@media screen and (max-width: 412px) {
+    .mobile-hide {
+        display: none;
+    }
+
+    .mobile-show {
+        display: block;
+    }
+
+    .section-title {
+        font-size: 32px;
+        line-height: 41.6px;
+    }
 }
