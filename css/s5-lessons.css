@@ -43,3 +43,44 @@
 .lessons-blocks-row .lesson-block:last-child {
     margin-right: 0; /* Убираем отступ справа для последнего блока */
 }
+
+@media screen and (max-width: 576px) {
+    .lessons {
+        padding: 20px;
+        margin: 0 20px 50px 20px;
+    }
+
+    .lesson-block img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .lesson-block {
+        margin-top: 0;
+    }
+
+    .lessons-blocks-row .lesson-block {
+        margin-top: 20px; /* Добавляем правый отступ между блоками */
+    }
+
+    .lessons-blocks-row .lesson-block:first-child {
+        margin-top: 0; /* Убираем отступ справа для последнего блока */
+    }
+
+    .lessons-blocks-row {
+        margin-top: 0;
+    }
+
+    .lesson-block-title {
+        font-size: 16px;
+        line-height: 22.4px;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .lesson-block-desc {
+        font-size: 16px;
+        line-height: 22.4px;
+        color: #FFFFFFE9;
+    }
+}
