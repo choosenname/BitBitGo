@@ -11,6 +11,7 @@
 @import "s10-faq.css";
 @import "footer.css";
 @import "modals.css";
+@import "mobile.css";
 
 body {
     font-family: Ubuntu, serif;
