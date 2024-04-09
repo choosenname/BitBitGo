@@ -62,15 +62,25 @@
     gap: 20px
 }
 
-.faq-title {
-    font-family: Ubuntu, serif;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 62.4px;
-    text-align: left;
-    margin-bottom: 50px;
-}
+@media screen and (max-width: 576px) {
+    .section-title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 41.6px;
+        text-align: left;
+    }
 
-.faq-title > span {
-    color: #009345;
+    .accordion-header {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20.8px;
+        text-align: left;
+    }
+
+    .accordion-content{
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 19.5px;
+        text-align: left;
+    }
 }

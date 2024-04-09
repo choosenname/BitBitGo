@@ -32,38 +32,43 @@ footer {
     background: #1C1C1C;
 }
 
-.title {
-    font-family: Ubuntu, serif;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 78px;
-    text-align: left;
-}
-
-.title > span {
-    font-family: Ubuntu, serif;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 78px;
-    text-align: left;
-    color: #009345;
-}
-
-.subtitle {
+.section-title {
     font-family: Ubuntu, serif;
     font-size: 48px;
     font-weight: 700;
     line-height: 62.4px;
     text-align: left;
+    margin-bottom: 50px;
 }
 
-.subtitle > span {
+.section-title span {
     color: #009345;
 }
 
-.why-we-are-img {
-    width: 598px;
-    height: 598px;
-    top: 903px;
-    left: 320px;
+.mobile-show {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    section {
+        padding: 0 20px 0 20px;
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+
+    .mobile-show {
+        display: block;
+    }
+
+    .section-title {
+        font-size: 32px;
+        line-height: 41.6px;
+        margin-bottom: 25px;
+    }
 }

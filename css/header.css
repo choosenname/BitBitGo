@@ -39,3 +39,20 @@
     line-height: 16.09px;
     text-align: left;
 }
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        width: 150px;
+    }
+
+    .under-logo {
+        font-size: 7px;
+        font-weight: 500;
+        line-height: 8.04px;
+    }
+
+    .logo {
+        width: 150px;
+        height: 23.72px;
+    }
+}

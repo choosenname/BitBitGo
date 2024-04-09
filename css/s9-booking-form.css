@@ -34,3 +34,23 @@
     flex-direction: column;
     gap: 10px; /* Расстояние между строками */
 }
+
+@media screen and (max-width: 576px) {
+    .form-title {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 28.6px;
+        text-align: left;
+    }
+
+    .booking-form {
+        padding: 24px 22px 24px 22px;
+    }
+
+    .booking-form-button {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.38px;
+        text-align: center;
+    }
+}

@@ -42,13 +42,6 @@
     margin-right: 8px;
 }
 
-.greeting-4th-title {
-    font-family: Ubuntu, serif;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 25.28px;
-}
-
 .booking-button {
     padding: 24px 48px;
     background: #009345;
@@ -59,6 +52,7 @@
     line-height: 29.87px;
     text-align: center;
     border-radius: 15px 15px 15px 1px;
+    max-width: 418px;
 }
 
 .lesson-text {
@@ -92,4 +86,104 @@
 
 .title-1th > span {
     color: #009345;
+}
+
+.title {
+    font-family: Ubuntu, serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: left;
+}
+
+.title > span {
+    color: #009345;
+}
+
+.greeting-4th-title {
+    font-family: Ubuntu, serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.28px;
+}
+
+@media screen and (max-width: 576px) {
+    .title {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 52px;
+    }
+
+    .title-1th {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25.28px;
+    }
+
+    .greeting-3th-title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20.68px;
+    }
+
+    .list-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    }
+
+    .greeting-bold-text {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20.68px;
+    }
+
+    .greeting-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.38px;
+    }
+
+    .lesson-text {
+        margin-left: 34px;
+        line-height: 20.8px;
+    }
+
+    .greeting-4th-title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20.68px;
+        text-align: center;
+    }
+
+    .offer-text {
+        margin: 30px 0 16px 0;
+    }
+
+    .booking-button {
+        padding: 18px 30px 18px 30px;
+        background: #009345;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 22.98px;
+        border-radius: 15px 15px 15px 1px;
+    }
+
+    .sm-greeting-icon {
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+    }
+
+    .free-text {
+        margin-top: 20px;
+    }
+
+    .list-icon-question{
+        width: 12.83px;
+        height: 20px;
+        left: 0.93px;
+        margin-right: 8px;
+    }
 }
