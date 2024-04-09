@@ -50,6 +50,10 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+    section {
+        padding: 0 20px 0 20px;
+    }
+
     header {
         margin-bottom: 20px;
     }
