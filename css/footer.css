@@ -54,6 +54,7 @@ footer {
     line-height: 13.79px;
     text-align: left;
     white-space: normal;
+    color: white;
 }
 
 #footer-navbar-brand {
@@ -101,4 +102,55 @@ p {
 
 #footer-logo {
     width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    #footer-navbar-brand {
+        width: 260px;
+        margin-right: 0;
+    }
+
+    #footer-logo {
+        height: 44px;
+    }
+
+    footer {
+        padding: 25px 20px 50px 20px;
+    }
+
+    #footer-social-navbar-items-block {
+        margin-left: 0;
+    }
+
+    .footer-docs p {
+        text-align: left;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    #navbarSupportedContent {
+        margin-top: 25px;
+    }
+
+    #footer-social-navbar-items-block {
+        margin-top: 30px;
+    }
+
+    #mobile-info {
+        margin-top: 30px;
+    }
+
+    .info {
+        margin-top: 10px;
+    }
+
+    .footer-docs {
+        margin-top: 25px;
+    }
+
+    .footer-docs > p {
+        margin-top: 5px;
+    }
 }
