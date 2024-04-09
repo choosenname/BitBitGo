@@ -98,9 +98,12 @@
 }
 
 @media screen and (max-width: 576px) {
+    #Price {
+        padding: 0 20px 0 20px;
+    }
+
     .price-block {
         padding: 20px;
-        margin: 0 20px 50px 20px;
     }
 
     .price-title {
