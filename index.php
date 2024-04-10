@@ -33,5 +33,6 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="js/faq.js"></script>
 <script src="js/modal.js"></script>
+<script src="js/burger-menu.js"></script>
 </body>
 </html>

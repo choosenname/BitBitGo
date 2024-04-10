@@ -1,3 +1,8 @@
+#header {
+    background: white;
+    width: 100%;
+}
+
 .sm-header-icon {
     width: 28px;
     height: 28px;
@@ -55,4 +60,41 @@
         width: 150px;
         height: 23.72px;
     }
+
+    .mobile-header-social {
+        display: flex !important;
+    }
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff; /* Цвет фона меню */
+    z-index: 999; /* Чтобы меню было поверх остального контента */
+    padding: 20px; /* Добавьте отступы по желанию */
+    box-sizing: border-box; /* Учитываем отступы внутри элемента */
+    overflow-y: auto; /* Включаем вертикальную прокрутку, если контент не помещается на экран */
+}
+
+.mobile-menu.active {
+    display: block;
+}
+
+.burger-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.support {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.09px;
+}
+
+.navbar-header {
+    width: 100%;
 }
