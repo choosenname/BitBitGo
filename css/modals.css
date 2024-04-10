@@ -89,3 +89,45 @@
     line-height: 22.98px;
     text-align: center;
 }
+
+@media screen and (max-width: 576px) {
+    .modal-title {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 22.98px;
+        text-align: center;
+    }
+
+    .popup-booking, .popup-thanks, .popup-more-info, .popup-connect{
+        padding: 30px 20px 30px 20px;
+    }
+
+    .booking-modal-form-button {
+        margin-top: 20px;
+    }
+
+    .thanks-modal-title {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.38px;
+        text-align: center;
+    }
+
+    .modal-img {
+        width: 280px;
+        height: 190px;
+        top: 170px;
+        left: 20px;
+    }
+
+    .popup-thanks, .popup-connect {
+        padding-top: 60px;
+    }
+
+    .cross > img {
+        width: 20px;
+        height: 20px;
+        top: 4.7px;
+        left: 4.7px;
+    }
+}
